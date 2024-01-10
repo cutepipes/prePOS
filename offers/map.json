@@ -1,5 +1,8 @@
 {
-  [
-    1000: "two-cheeseburgers-for-one/offer.ppkg"
-  [
+    "offers": [
+        {
+            "id": 1000,
+            "path": "two-cheeseburgers-for-one/offer.ppkg"
+        }
+    ]
 }
