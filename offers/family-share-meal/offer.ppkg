@@ -1,0 +1,84 @@
+{
+    "item": "PROMO:<br>Family Share Meal",
+    "price": 1800,
+    "promo": {
+        "offset_targets": [
+            {
+                "offset": 1,
+                "name": "Lunch Burger",
+                "fulfilled": false,
+                "whitelist": [
+                    18,
+                    32,
+                    33,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52
+                ]
+            },
+            {
+                "offset": 2,
+                "name": "Lunch Burger",
+                "fulfilled": false,
+                "whitelist": [
+                    18,
+                    32,
+                    33,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52
+                ]
+            },
+            {
+                "offset": 3,
+                "name": "Fries, Scoop of",
+                "fulfilled": false,
+                "whitelist": [
+                    30
+                ]
+            },
+            {
+                "offset": 4,
+                "name": "Fries, Scoop of",
+                "fulfilled": false,
+                "whitelist": [
+                    30
+                ]
+            },
+            {
+                "offset": 5,
+                "name": "Cold Drink / Shake",
+                "fulfilled": false,
+                "whitelist": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    7,
+                    8,
+                    9,
+                    10
+                ]
+            },
+            {
+                "offset": 6,
+                "name": "Cold Drink / Shake",
+                "fulfilled": false,
+                "whitelist": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    7,
+                    8,
+                    9,
+                    10
+                ]
+            }
+        ]
+    }
+}
