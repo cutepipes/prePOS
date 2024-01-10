@@ -1,7 +1,8 @@
 # Offer
 
-## <center>PROMO:<br>Two Cheeseburgers for One</center>
+## PROMO:<br>Two Cheeseburgers for One
 <br>
+
 ### Price: 470
 
 ### Targets:
