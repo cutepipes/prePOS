@@ -1,0 +1,24 @@
+{
+    "item": "PROMO:<br>Two Cheeseburgers for One",
+    "price": 470,
+    "promo": {
+        "offset_targets": [
+            {
+                "offset": 1,
+                "name": "Cheese Burger",
+                "fulfilled": false,
+                "whitelist": [
+                    18
+                ]
+            },
+            {
+                "offset": 2,
+                "name": "Cheese Burger",
+                "fulfilled": false,
+                "whitelist": [
+                    18
+                ]
+            }
+        ]
+    }
+}
