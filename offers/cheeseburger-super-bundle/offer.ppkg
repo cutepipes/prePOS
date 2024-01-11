@@ -1,0 +1,36 @@
+{
+    "item": "PROMO:<br>Cheese Burger Super Bundle",
+    "price": 1200,
+    "promo": {
+        "offset_targets": [
+            {
+                "offset": 1,
+                "name": "Cheese Burger",
+                "whitelist": [
+                    18
+                ]
+            },
+            {
+                "offset": 2,
+                "name": "Cheese Burger",
+                "whitelist": [
+                    18
+                ]
+            },
+            {
+                "offset": 3,
+                "name": "Cheese Burger",
+                "whitelist": [
+                    18
+                ]
+            },
+            {
+                "offset": 4,
+                "name": "Cheese Burger",
+                "whitelist": [
+                    18
+                ]
+            }
+        ]
+    }
+}
