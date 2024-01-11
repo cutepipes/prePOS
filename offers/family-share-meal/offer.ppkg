@@ -19,27 +19,6 @@
             },
             {
                 "offset": 2,
-                "name": "Fries, Scoop of",
-                "whitelist": [
-                    30
-                ]
-            },
-            {
-                "offset": 3,
-                "name": "Cold Drink / Shake",
-                "whitelist": [
-                    1,
-                    2,
-                    3,
-                    4,
-                    7,
-                    8,
-                    9,
-                    10
-                ]
-            },
-            {
-                "offset": 4,
                 "name": "Lunch Burger",
                 "whitelist": [
                     18,
@@ -53,12 +32,34 @@
                 ]
             },
             {
-                "offset": 5,
+                "offset": 3,
                 "name": "Fries, Scoop of",
                 "whitelist": [
                     30
                 ]
             },
+            {
+                "offset": 4,
+                "name": "Fries, Scoop of",
+                "whitelist": [
+                    30
+                ]
+            },
+            {
+                "offset": 5,
+                "name": "Cold Drink / Shake",
+                "whitelist": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    7,
+                    8,
+                    9,
+                    10
+                ]
+            },
+
             {
                 "offset": 6,
                 "name": "Cold Drink / Shake",
