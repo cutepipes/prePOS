@@ -1,0 +1,46 @@
+0 – Ice Cream
+1 – Fries, Scoop of
+2 – Fish
+3 – Pancake
+4 – Waffle
+5 – Burger Bun
+6 – Burger Meat
+7 – Bacon
+8 – Cheese
+9 – Pickle
+10 – Onions
+11 – Sauce
+12 – Milkshake Base
+13 – Whipped Cream
+14 – Chocolate Kibble
+15 – Espresso Shot
+16 – Lettuce
+17 – Chicken Portion
+18 – Caramel Syrup Shot
+19 – Hazelnut Syrup Shot
+20 – Chocolate Syrup Shot
+21 – Choc Powder
+22 – Cinn Powder
+23 - Tomato Slice
+24 - Water
+25 - Egg
+26 - English Muffin
+27 - Softened Fried Bread
+28 - Processed Pork Sausage Patty
+29 - Ciabatta
+30 - Split Banana 
+31 - Seasoning
+32 - Alternative Milk
+
+33 - Beetroot
+34 - Spicy Chicken
+
+35 - Fudge
+36 - Caramel
+37 - Strawberry
+
+38 - Cadbury® Flake®
+39 - Mini M&M's®
+40 - Oreo® Crumble
+41 - KitKat® Crumble
+42 - Choc Dip Topping

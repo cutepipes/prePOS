@@ -1,0 +1,33 @@
+#overlay {
+	position: fixed; /* Sit on top of the page content */
+  width: 200%;
+  height: 200%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.25);
+  z-index: 2;
+}
+
+#dialog {
+  border-width: 1px 5px 5px 1px;
+  overflow:scroll;
+  position: absolute;
+  left: 25%;
+  top: 25%;
+  max-height: 40%;
+
+  max-width: 20%;
+  min-width: 15%;
+  overflow-x:scroll;
+  text-align: center;
+  background-color: white;
+  border-style: solid;
+  border-color: black;
+
+	border-radius: 3%;
+	transform: translate(-50%,-50%);
+	padding-left: 20px;
+	padding-right: 20px;
+}

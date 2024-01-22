@@ -1,0 +1,474 @@
+{
+    "provision": 27383944,
+
+    "menus": {
+        "COLD_REG": [
+            {
+                "item": "330ml Can",
+                "price": 110
+            },
+            {
+                "item": "500ml Bottle",
+                "price": 165
+            },
+            {
+                "item": "Energy Drink",
+                "price": 120
+            },
+            {
+                "item": "Fuze Iced Tea",
+                "price": 160
+            },
+            {
+                "item": "Ice Cream Spider",
+                "price": 205
+            }
+        ],
+        "COLD_SHAKE": [
+            {
+                "item": "Banana Shake",
+                "price": 190
+            },
+            {
+                "item": "Choc Shake",
+                "price": 190
+            },
+            {
+                "item": "Strawberry Shake",
+                "price": 190
+            },
+            {
+                "item": "Vanilla Shake",
+                "price": 175
+            }
+        ],
+        "BF_YOUNG": [
+            {
+                "item": "Kids Meal: Fish & Chips",
+                "price": 150
+            },
+            {
+                "item": "Toasted Sandwich",
+                "price": 225
+            },
+            {
+                "item": "Pancakes",
+                "price": 375
+            },
+            {
+                "item": "Waffles Meal",
+                "price": 400
+            },
+            {
+                "item": "Hash Brown Meal",
+                "price": 240
+            }
+        ],
+        "BF_BURGER": [
+            {
+                "item": "Cheese Burger",
+                "price": 240
+            },
+            {
+                "item": "Salad Burger",
+                "price": 230
+            },
+            {
+                "item": "Bacon-Egg Floppy",
+                "price": 240
+            },
+            {
+                "item": "Bacon-Egg Muffin",
+                "price": 245
+            },
+            {
+                "item": "Sausage-Egg Floppy",
+                "price": 240
+            },
+            {
+                "item": "Sausage-Egg Muffin",
+                "price": 245
+            }
+        ],
+        "BF_DRINK": [
+            {
+                "item": "Brekkie Hot Choc",
+                "price": 100
+            },
+            {
+                "item": "Iced Coffee",
+                "price": 275
+            },
+            {
+                "item": "Bacon-Egg Floppy, Cheese",
+                "price": 275
+            },
+            {
+                "item": "Bacon-Egg Muffin, Cheese",
+                "price": 255
+            },
+            {
+                "item": "Sausage-Egg Floppy, Cheese",
+                "price": 250
+            },
+            {
+                "item": "Sausage-Egg Muffin, Cheese",
+                "price": 255
+            },
+            {
+                "item": "Fluffy Milk Shot",
+                "price": 75
+            }
+        ],
+        "LUNCH": [
+            {
+                "item": "Cheesy Bacon Burger",
+                "price": 300
+            },
+            {
+                "item": "Eggs Benedict",
+                "price": 750
+            },
+            {
+                "item": "Fries, Scoop of",
+                "price": 140
+            },
+            {
+                "item": "Wedges, Scoop of",
+                "price": 160
+            },
+            {
+                "item": "Nacho Meal",
+                "price": 600
+            },
+            {
+                "item": "Chicken Burger",
+                "price": 290
+            }
+        ],
+        "DESSERT_MODS": [
+            {
+                "item": "Strawberry Jam"
+            },
+            {
+                "item": "Apricot Jam"
+            },
+            {
+                "item": "Raspberry Jam"
+            },
+            {
+                "item": "Modify Above"
+            },
+            {
+                "item": "&empty;"
+            },
+            {
+                "item": "Plain"
+            },
+            {
+                "item": "Special Request"
+            }
+        ],
+        "LUNCH_MODS": [
+            {
+                "item": "Seasoning"
+            },
+            {
+                "item": "Tomato Slices",
+                "price": 10
+            },
+            {
+                "item": "Egg",
+                "price": 25
+            },
+            {
+                "item": "Custard",
+                "price": 10
+            },
+            {
+                "item": "Bacon Strip",
+                "price": 40
+            },
+            {
+                "item": "Cheese",
+                "price": 30
+            },
+            {
+                "item": "Mushrooms",
+                "price": 50
+            },
+            {
+                "item": "Maple Syrup",
+                "price": 20
+            },
+            {
+                "item": "Whipped Cream",
+                "price": 30
+            }
+        ],
+        "LUNCH_MODS_2": [
+            {
+                "item": "Xtra"
+            },
+            {
+                "item": "Less"
+            },
+            {
+                "item": "Remove"
+            },
+            {
+                "item": "Only"
+            },
+            {
+                "item": "Lettuce, Shredded",
+                "price": 25
+            },
+            {
+                "item": "Lettuce Leaves",
+                "price": 25
+            },
+            {
+                "item": "Pancake",
+                "price": 250
+            }
+        ],
+        "DESSERT": [
+            {
+                "item": "Banana Split",
+                "price": 800
+            },
+            {
+                "item": "Chocolate Sundae",
+                "price": 450
+            },
+            {
+                "item": "Fruit Salad Custard",
+                "price": 275
+            },
+            {
+                "item": "Snow Freeze",
+                "price": 75
+            },
+            {
+                "item": "Tartlets",
+                "price": 275
+            }
+        ],
+        "CAFE": [
+            {
+                "item": "Cappuccino",
+                "price": 225
+            },
+            {
+                "item": "Flat White",
+                "price": 240
+            },
+            {
+                "item": "Hot Chocolate",
+                "price": 175
+            },
+            {
+                "item": "Caffè Latte",
+                "price": 225
+            },
+            {
+                "item": "Mochaccino",
+                "price": 225
+            },
+            {
+                "item": "Long Black",
+                "price": 210
+            },
+            {
+                "item": "Espresso Shot",
+                "price": 110
+            }
+        ],
+        "LUNCH_BURGER": [
+            {
+                "item": "Cheese Burger",
+                "price": 240
+            },
+            {
+                "item": "BLT Cheese Burger",
+                "price": 250
+            },
+            {
+                "item": "Supreme BLT",
+                "price": 340
+            },
+            {
+                "item": "Grand Cheese Burger",
+                "price": 355
+            },
+            {
+                "item": "Salad Burger",
+                "price": 230
+            },
+            {
+                "item": "Chicken Burger, Cheese",
+                "price": 305
+            }
+        ],
+        "TEA": [
+            {
+                "item": "Black Tea",
+                "price": 195
+            },
+            {
+                "item": "Chai Latte",
+                "price": 220
+            },
+            {
+                "item": "Dilmah Tea",
+                "price": 205
+            },
+            {
+                "item": "Banana Frappé",
+                "price": 275
+            },
+            {
+                "item": "Choc Frappé",
+                "price": 275
+            },
+            {
+                "item": "Strawberry Frappé",
+                "price": 275
+
+            },
+            {
+                "item": "Vanilla Frappé",
+                "price": 260
+            }
+        ],
+        "SIZE": [
+            {
+                "item": "Medium Cup Upgrade",
+                "price": 50
+            },
+            {
+                "item": "Large Cup Upgrade",
+                "price": 100
+            },
+            {
+                "price": 0
+            },
+            {
+                "price": 0
+            },
+            {
+                "item": "Small Go-Cup",
+                "price": 20
+            },
+            {
+                "item": "Medium Go-Cup",
+                "price": 80
+            },
+            {
+                "item": "Large Go-Cup",
+                "price": 130
+            }
+        ],
+        "MODS": [
+            {
+                "item": "Choc Powder",
+                "price": 10
+            },
+            {
+                "item": "Cinn Powder",
+                "price": 10
+            },
+            {
+                "item": "Modify Above"
+            },
+            {
+                "item": "Caramel Syrup Shot",
+                "price": 35
+            },
+            {
+                "item": "Hazelnut Syrup Shot",
+                "price": 35
+            },
+            {
+                "item": "Espresso Shot",
+                "price": 110
+            }
+        ],
+        "MODS_SUGAR": [
+            {
+                "item": "1 Sugar"
+            },
+            {
+                "item": "2 Sugars"
+            },
+            {
+                "item": "3 Sugars"
+            },
+            {
+                "item": "4 Sugars"
+            },
+            {
+                "item": "No Sugar"
+            },
+            {
+                "item": "Serve Xtra Hot"
+            }
+        ],
+        "MODS_MILK": [
+            {
+                "item": "Dairy Milk"
+            },
+            {
+                "item": "Almond Milk"
+            },
+            {
+                "item": "Coconut Milk"
+            },
+            {
+                "item": "Soy Milk"
+            },
+            {
+                "item": "Trim Milk"
+            },
+            {
+                "item": "Serve Warm"
+            }
+        ],
+        "DISCOUNT": [
+
+        ],
+        "COMBO": [
+
+        ],
+        "CLASSICS": [
+            {
+                "item": "Classics: Bacon-Eggs on Toast",
+                "price": 450
+            },
+            {
+                "item": "Classics: Fish & Chips",
+                "price": 400
+            },
+            {
+                "item": "Classics: Whitebait Fritters",
+                "price": 350
+            },
+            {
+                "item": "Classics: Mince Pie",
+                "price": 250
+            },
+            {
+                "item": "Classics: Mince Pie, Cheese",
+                "price": 250
+            },
+            {
+                "item": "Classics: Steak Pie",
+                "price": 250
+            },
+            {
+                "item": "Classics: Steak Pie, Cheese",
+                "price": 250
+            }
+        ]
+    }
+}

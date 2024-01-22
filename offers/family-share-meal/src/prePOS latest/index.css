@@ -1,0 +1,223 @@
+* {
+	font-family: 'system-ui';
+	-webkit-user-select: none;
+	/* Safari */
+	user-select: none;
+	/* Standard syntax */
+}
+
+ hr {
+	padding: 0px;
+	margin-bottom: -3px;
+	margin-top: 0px;
+	color: lightgray;
+}
+
+ th {
+	border: 1px solid lightgray;
+	height: 20px;
+	font-weight: 600;
+}
+ td {
+	border: 1px solid lightgray;
+	min-width: max-content;
+	height: 55px;
+
+	font-style: normal;
+	font-size: 13px;
+	overflow: hidden;
+ }
+
+tr {
+	max-height: 55px;
+	overflow: overlay;
+}
+
+ table, tr, th, td {
+	padding: 3px;
+	border-top: none;
+	table-layout: fixed;
+	border-left: none;
+	text-align: center;
+}
+
+.catbtn-overlay {
+	position: absolute;
+	left: 0;
+	min-width:100%;
+	overflow:hidden;
+	max-width: 300%;
+	font-size: 120%;
+	bottom: 0;
+	border-top: 1px sold gray;
+	background-color: red;
+	color: black;
+}
+
+.catbtn-price {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	max-height: fit-content;
+	max-width: fit-content;
+	background-color: yellow;
+	color: black;
+	font-size: 120%;
+	padding: 1px 4px 1px 4px;
+	border-top: 1px solid gray;
+	border-right: 1px solid gray;
+}
+
+.catbtn-title {
+	position: absolute;
+	left: 0;
+	min-width:100%;
+	border-bottom: 1px solid gray;
+	overflow:hidden;
+	min-height: 20%;
+	height: 20%;
+	max-height: 20%;
+	max-width: 300%;
+	font-size: 130%;
+	top: 0;
+	background-color: crimson;
+	color: white;
+}
+
+.invisible-sb {
+	background: none; border: none; color:black; width: 100px; height: 100px;
+}
+
+.invisible-catbtn {
+	filter:opacity(0);
+}
+
+.small-logo:active {
+	filter:blur(1px)
+}
+
+ .sb {
+	border-radius: 15%;
+	width: 100px;
+	height: 100px;
+	border: 2px solid gray;
+	border-top: 1px dotted gray;
+	border-left: 1px dotted gray;
+	margin-bottom: 2px;
+	margin-right: -2px;
+	vertical-align: top;
+	overflow:hidden;
+}
+html, body {
+	margin: 0.5px;
+	overflow:hidden;
+}
+ .ADDBTN {
+	font-size: 35px;
+	width: 55px;
+	height: 55px;
+	background-color: chartreuse;
+	border: 2px solid gray;
+	border-radius: 50px;
+}
+ .ADDBTN:active {
+	background-color: green;
+}
+
+#numerical-input {
+	animation: flash 1s infinite;
+}
+
+img {
+	max-width: 100%;
+}
+
+@keyframes flash {
+	0% {
+		border-right: 2px solid gray;
+	}
+	
+	50% {
+		border-right: 2px solid white;
+	}
+	100% {
+		border-right: 2px solid gray;
+	}
+
+}
+
+#ITEMLINE1, #ITEMLINE2, #ITEMLINE3 {
+	padding: 1px; height: 85px;
+	max-width: 100%;
+	margin: 0.5px;
+	height: min-content;
+	overflow:hidden;
+}
+
+.sb_num {
+	cursor: pointer;
+	border-radius: 30%;
+	font-size: 32px;
+	height: 10%;
+	aspect-ratio: 1 / 1;
+
+	border: 2px solid gray;
+	border-top: 1px dotted gray;
+	border-left: 1px dotted gray;
+	margin-bottom: 2px;
+	margin-right: -2px;
+	vertical-align: top;
+}
+
+.sb_num:hover {
+	filter:brightness(0.8);
+	font-style: italic;
+}
+
+.sb_num:active {
+	filter:brightness(0.5);
+}
+
+ .CATBTN {
+	margin-top: 3px;
+	vertical-align: top;
+	background-repeat: no-repeat;
+	background-size:cover;
+	margin-left: -1px;
+	margin-right: 3px;
+	position:relative;
+	border-radius: 5%;
+	width: 100px;
+	color: white;
+	background-color: crimson;
+	overflow:hidden;
+	font-size: 12px;
+	font-weight: 550;
+	border: 1px solid gray;
+	height: 100px;
+}
+ 
+ h1, h2, h3, h4 {
+	font-weight: 600;
+}
+
+ .CATBTN:enabled:hover, .slot:hover, .TOPCAT:hover, .sb:hover {
+	filter: brightness(80%);
+}
+ img {
+	border: 2px solid black;
+	width: 377px !important;
+	border-top: 1px dotted black;
+	border-left: 1px dotted black;
+}
+ .CATBTN:enabled:active, .sb:active, .TOPCAT:active {
+	filter: invert();
+}
+
+ .closeDialogBtn {
+	background-color: white;
+	border: 1px solid lightgray;
+	border-radius: 4px;
+	height: 50px;
+}
+ 

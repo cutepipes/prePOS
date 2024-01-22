@@ -1,0 +1,2148 @@
+{
+    "provision": 618224,
+
+    "meal_info": {
+        "COMBO_UPGRADE_COST": 350,
+        "mealable": [
+            15,
+            18,
+            19,
+            20,
+            21,
+            22,
+            25,
+            26,
+            27,
+            28,
+            32,
+            33,
+            48,
+            49,
+            50,
+            51,
+            52
+        ],
+        "promo": {
+            "offset_targets": [
+                {
+                    "offset": 1,
+                    "name": "Fries, Scoop of",
+                    "whitelist": [
+                        30
+                    ]
+                },
+                {
+                    "offset": 2,
+                    "name": "Colds. / Coffee / Frappé",
+                    "whitelist": [
+                        1, 2, 3, 4,
+                        7, 8, 9, 10,
+                        41, 42, 43, 44,
+                        45, 54, 55, 56, 58, 59, 60, 61
+                    ]
+                }
+            ]
+        }
+    },
+
+    "charities" : [
+        {
+            "name": "Red Cross",
+            "short-name": "Red Cross"
+        },
+        {
+            "name": "InsideOUT",
+            "short-name": "LGBT"
+        },
+        {
+            "name": "KidsCan Trust",
+            "short-name": "KidsCan"
+        },
+        {
+            "name": "LifeEdu Trust",
+            "short-name": "LifeEdu"
+        },
+        {
+            "name": "Cancer Society",
+            "short-name": "CancerSoc."
+        },
+        {
+            "name": "Bowel Cancer Society",
+            "short-name": "Bowel Cancer"
+        },
+        {
+            "name": "Fred Hollows",
+            "short-name": "Hollows"
+        },
+        {
+            "name": "Stroke Foundation",
+            "short-name": "Stroke"
+        },
+        {
+            "name": "Autism NZ",
+            "short-name": "Autism"
+        },
+        {
+            "name": "Hospice Waikato",
+            "short-name": "Hospice"
+        },
+        {
+            "name": "Epilepsy NZ",
+            "short-name": "Epilepsy"
+        },
+        {
+            "name": "Youthline",
+            "short-name": "Ythl"
+        }
+    ],
+
+    "constituents": [
+        {
+            "item": "Ice Cream",
+            "price": 80
+        },
+        {
+            "item": "Fries, Scoop of",
+            "price": 300
+        },
+        {
+            "item": "Fish",
+            "price": 250
+        },
+        {
+            "item": "Pancake",
+            "price": 300
+        },
+        {
+            "item": "Waffle",
+            "price": 350
+        },
+        {
+            "item": "Burger Bun",
+            "price": 150
+        },
+        {
+            "item": "Burger Meat",
+            "price": 150
+        },
+        {
+            "item": "Bacon",
+            "price": 50
+        },
+        {
+            "item": "Cheese",
+            "price": 100
+        },
+        {
+            "item": "Pickle",
+            "price": 20
+        },
+        {
+            "item": "Onions",
+            "price": 20
+        },
+        {
+            "item": "Sauce",
+            "price": 50
+        },
+        {
+            "item": "Milkshake Base",
+            "price": 300
+        },
+        {
+            "item": "Whipped Cream",
+            "price": 100
+        },
+        {
+            "item": "Chocolate Kibble",
+            "price": 80
+        },
+        {
+            "item": "Espresso Shot",
+            "price": 200
+        },
+        {
+            "item": "Lettuce",
+            "price": 50
+        },
+        {
+            "item": "Chicken Portion",
+            "price": 400
+        },
+        {
+            "item": "Caramel Syrup Shot",
+            "price": 35
+        },
+        {
+            "item": "Hazelnut Syrup Shot",
+            "price": 35
+        },
+        {
+            "item": "Chocolate Syrup Shot",
+            "price": 35
+        },
+        {
+            "item": "Choc Powder",
+            "price": 10
+        },
+        {
+            "item": "Cinn Powder",
+            "price": 10
+        },
+        {
+            "item": "Tomato Slice",
+            "price": 30
+        },
+        {
+            "item": "Water",
+            "price": 0
+        },
+        {
+            "item": "Egg",
+            "price": 100
+        },
+        {
+            "item": "English Muffin",
+            "price": 300
+        },
+        {
+            "item": "Softened Fried Bread",
+            "price": 250
+        },
+        {
+            "item": "Processed Pork Sausage Patty",
+            "price": 300
+        },
+        {
+            "item": "Ciabatta",
+            "price": 300
+        },
+        {
+            "item": "Split Banana",
+            "price": 400
+        },
+        {
+            "item": "Alternative Milk",
+            "price": 0
+        },
+        {
+            "item": "Sugar",
+            "price": 0
+        }
+    ],
+
+    "package": [
+        {
+            "item": "Cold Drinks",
+            "descriptor-key": true
+        },
+        {
+            "item": "330ml Can",
+            "price": 320
+        },
+        {
+            "item": "500ml Bottle",
+            "price": 410
+        },
+        {
+            "item": "Energy Drink",
+            "price": 440,
+            "minimum_age": 14
+        },
+        {
+            "item": "Fuze Iced Tea",
+            "price": 400
+        },
+        {
+            "item": "Ice Cream Spider",
+            "price": 520,
+            "constitution": [
+                {
+                    "constituent": 0,
+                    "quantity": 2
+                }
+            ]
+        },
+        
+        {
+            "item": "Milk Shakes",
+            "descriptor-key": true
+        },
+        {
+            "item": "Banana Shake",
+            "price": 380,
+            "colors": ["yellow"],
+            "constitution": [
+                {
+                    "constituent": 12,
+                    "quantity": 1
+                }
+            ]
+        },
+        {
+            "item": "Choc Shake",
+            "price": 380,
+            "colors": ["brown", "white"],
+            "constitution": [
+                {
+                    "constituent": 12,
+                    "quantity": 1
+                }
+            ]
+        },
+        {
+            "item": "Strawberry Shake",
+            "price": 380,
+            "colors": ["pink"],
+            "constitution": [
+                {
+                    "constituent": 12,
+                    "quantity": 1
+                }
+            ]
+        },
+        {
+            "item": "Vanilla Shake",
+            "price": 350,
+            "colors": ["white"],
+            "constitution": [
+                {
+                    "constituent": 12,
+                    "quantity": 1
+                }
+            ]
+        },
+
+        {
+            "item": "Kids' Menu",
+            "descriptor-key": true
+        },
+        {
+            "item": "Kids Meal: Fish & Chips",
+            "price": 800,
+            "constitution": [
+                {
+                    "constituent": 1,
+                    "quantity": 1
+                },
+                {
+                    "constituent": 2,
+                    "quantity": 1
+                }
+            ] 
+        },
+        {
+            "item": "Toasted Sandwich",
+            "price": 450,
+            "constitution": [
+
+            ]
+        },
+        {},
+        {
+            "item": "Pancakes",
+            "price": 1000,
+            "constitution":[
+                {
+                    "constituent": 3,
+                    "quantity": 3
+                }
+            ]
+        },
+        {
+            "item": "Waffles Meal",
+            "price": 1100,
+            "constitution": [
+                {
+                    "constituent": 4,
+                    "quantity": 3
+                }
+            ]
+        },
+
+        {
+            "item": "Quick Bites",
+            "descriptor-key": true
+        },
+        {
+            "item": "Cheese Burger",
+            "price": 470,
+            "constitution": [
+                {
+                    "constituent": 5,
+                    "quantity": 1
+                },
+                {
+                    "constituent": 6,
+                    "quantity": 1
+                },
+                {
+                    "constituent": 7,
+                    "quantity": 1
+                },
+                {
+                    "constituent": 8,
+                    "quantity": 2
+                },
+                {
+                    "constituent": 9,
+                    "quantity": 1
+                },
+                {
+                    "constituent": 10,
+                    "quantity": 1
+                },
+                {
+                    "constituent": 11,
+                    "quantity": 1
+                }
+            ]
+        },
+        {
+            "item": "Bacon-Egg Floppy",
+            "price": 480,
+            "constitution": [
+                {
+                    "constituent": 7,
+                    "quantity": 2
+                },
+                {
+                    "constituent": 25,
+                    "quantity": 1
+                },
+                {
+                    "constituent": 27,
+                    "quantity": 1
+                }
+            ]
+        },
+        {
+            "item": "Sausage-Egg Floppy",
+            "price": 480,
+            "constitution": [
+                {
+                    "constituent": 28,
+                    "quantity": 1
+                },
+                {
+                    "constituent": 25,
+                    "quantity": 1
+                },
+                {
+                    "constituent": 27,
+                    "quantity": 1
+                }
+            ]
+        },
+        {
+            "item": "Bacon-Egg Muffin",
+            "price": 490,
+            "constitution": [
+                {
+                    "constituent": 7,
+                    "quantity": 2
+                },
+                {
+                    "constituent": 25,
+                    "quantity": 1
+                },
+                {
+                    "constituent": 26,
+                    "quantity": 1
+                }
+            ]
+        },
+        {
+            "item": "Sausage-Egg Muffin",
+            "price": 490,
+            "constitution": [
+                {
+                    "constituent": 28,
+                    "quantity": 1
+                },
+                {
+                    "constituent": 25,
+                    "quantity": 1
+                },
+                {
+                    "constituent": 26,
+                    "quantity": 1
+                }
+            ]
+        },
+
+        {
+            "item": "Cheese Floppies",
+            "descriptor-key": true
+        },
+        {
+            "item": "Fluffy Milk Shot",
+            "price": 150,
+            "colors": ["purple", "white"]
+        },
+        {
+            "item": "Bacon-Egg Floppy, Cheese",
+            "price": 500,
+            "constitution": [
+                {
+                    "constituent": 7,
+                    "quantity": 2
+                },
+                {
+                    "constituent": 25,
+                    "quantity": 1
+                },
+                {
+                    "constituent": 27,
+                    "quantity": 1
+                },
+                {
+                    "constituent": 8,
+                    "quantity": 2
+                }
+            ]
+        },
+        {
+            "item": "Sausage-Egg Floppy, Cheese",
+            "price": 500,
+            "constitution": [
+                {
+                    "constituent": 28,
+                    "quantity": 1
+                },
+                {
+                    "constituent": 25,
+                    "quantity": 1
+                },
+                {
+                    "constituent": 27,
+                    "quantity": 1
+                },
+                {
+                    "constituent": 8,
+                    "quantity": 2
+                }
+            ]
+        },
+        {
+            "item": "Bacon-Egg Muffin, Cheese",
+            "price": 510,
+            "constitution": [
+                {
+                    "constituent": 7,
+                    "quantity": 2
+                },
+                {
+                    "constituent": 25,
+                    "quantity": 1
+                },
+                {
+                    "constituent": 26,
+                    "quantity": 1
+                },
+                {
+                    "constituent": 8,
+                    "quantity": 2
+                }
+            ]
+        },
+        {
+            "item": "Sausage-Egg Muffin, Cheese",
+            "price": 510,
+            "constitution": [
+                {
+                    "constituent": 28,
+                    "quantity": 1
+                },
+                {
+                    "constituent": 25,
+                    "quantity": 1
+                },
+                {
+                    "constituent": 26,
+                    "quantity": 1
+                },
+                {
+                    "constituent": 8,
+                    "quantity": 2
+                }
+            ]
+        },
+        {
+            "item": "Brekkie Hot Choc",
+            "price": 200
+        },
+
+        {
+            "item": "Fries, Scoop of",
+            "price": 280
+        },
+        {
+            "item": "Wedges, Scoop of",
+            "price": 320
+        },
+        {
+            "item": "Chicken Burger",
+            "price": 580,
+            "colors": ["gold", "black"],
+            "constitution": [
+                {
+                    "constituent": 5,
+                    "quantity": 1
+                },
+                {
+                    "constituent": 11,
+                    "quantity": 1
+                },
+                {
+                    "constituent": 16,
+                    "quantity": 1
+                },
+                {
+                    "constituent": 17,
+                    "quantity": 1
+                }
+            ]
+        },
+        {
+            "item": "Cheesy Bacon Burger",
+            "price": 700,
+            "constitution": [
+                {
+                    "constituent": 5,
+                    "quantity": 1
+                },
+                {
+                    "constituent": 7,
+                    "quantity": 3
+                },
+                {
+                    "constituent": 8,
+                    "quantity": 3
+                },
+                {
+                    "constituent": 10,
+                    "quantity": 2
+                },
+                {
+                    "constituent": 6,
+                    "quantity": 2
+                }
+            ]
+        },
+        {
+            "item": "Nacho Meal",
+            "price": 1200
+        },
+        {
+            "item": "Eggs Benedict",
+            "price": 1500,
+            "promo": {
+                "offset_targets": [
+                    {
+                        "name": "E/B Base",
+                        "whitelist": [
+                            65,
+                            66
+                        ]
+                    }
+                ]
+            }
+        },
+
+        {
+            "item": "Snow Freeze",
+            "price": 150,
+            "colors": ["lightblue", "black"],
+            "constitution":[
+                {
+                    "constituent": 0,
+                    "quantity": 3
+                }
+            ]
+        },
+        {
+            "item": "Banana Split",
+            "price": 1500,
+            "constitution": [
+                {
+                    "constituent": 30,
+                    "quantity": 2
+                },
+                {
+                    "constituent": 20,
+                    "quantity": 2
+                },
+                {
+                    "constituent": 13,
+                    "quantity": 1
+                },
+                {
+                    "constituent": 14,
+                    "quantity": 2
+                }
+            ]
+        },
+        {
+            "item": "Chocolate Sundae",
+            "price": 1300,
+            "constitution": [
+                {
+                    "constituent": 0,
+                    "quantity": 3
+                },
+                {
+                    "constituent": 20,
+                    "quantity": 4
+                },
+                {
+                    "constituent": 13,
+                    "quantity": 1
+                },
+                {
+                    "constituent": 14,
+                    "quantity": 2
+                }
+            ]
+        },
+        {
+            "item": "Fruit Salad Custard",
+            "price": 650,
+            "colors": ["brown", "yellow"]
+        },
+        {
+            "item": "Tartlets",
+            "price": 700,
+            "constitution": [
+                {
+                    "constituent": 3,
+                    "quantity": 3
+                }
+            ]
+        },
+
+         {
+            "item": "Cappuccino",
+            "price": 450,
+            "constitution": [
+                {
+                    "constituent": 15,
+                    "quantity": 1
+                }, 
+                {
+                    "constituent": 21,
+                    "quantity": 1
+                },
+                {
+                    "constituent": 22,
+                    "quantity": 0
+                }
+            ]
+        },
+        {
+            "item": "Flat White",
+            "price": 480,
+            "constitution" : [
+                {
+                    "constituent": 15,
+                    "quantity": 1
+                },
+                {
+                    "constituent": 21,
+                    "quantity": 0
+                },
+                {
+                    "constituent": 22,
+                    "quantity": 0
+                }
+            ]
+        },
+        {
+            "item": "Hot Chocolate",
+            "price": 350,
+            "constitution" : [
+                {
+                    "constituent": 20,
+                    "quantity": 1
+                },
+                {
+                    "constituent": 21,
+                    "quantity": 1
+                },
+                {
+                    "constituent": 22,
+                    "quantity": 0
+                }
+
+            ]
+        },
+        {
+            "item": "Caffè Latte",
+            "price": 450,
+            "constitution": [
+                {
+                    "constituent": 10,
+                    "quantity": 1
+                },
+                {
+                    "constituent": 21,
+                    "quantity": 0
+                },
+                {
+                    "constituent": 22,
+                    "quantity": 0
+                }
+            ]
+        },
+        {
+            "item": "Mochaccino",
+            "price": 450,
+            "constitution" : [
+                {
+                    "constituent": 15,
+                    "quantity": 1
+                },
+                {
+                    "constituent": 20,
+                    "quantity": 1
+                },
+                {
+                    "constituent": 21,
+                    "quantity": 1
+                },
+                {
+                    "constituent": 22,
+                    "quantity": 0
+                }
+
+            ]
+        },
+        {
+            "item": "Long Black",
+            "price": 420,
+            "constitution": [
+                {
+                    "constituent": 24,
+                    "quantity": 1
+                },
+                {
+                    "constituent": 15,
+                    "quantity": 1
+                }
+            ]
+        },
+        {
+            "item": "Espresso",
+            "price": 220,
+            "constitution": [
+                {
+                    "constituent": 15,
+                    "quantity": 1
+                }
+            ]
+        },
+
+        {
+            "item": "Salad Burger",
+            "price": 560,
+            "colors": ["lightgreen"],
+            "constitution": [
+                {
+                    "constituent": 5,
+                    "quantity": 1
+                },
+                {
+                    "constituent": 11,
+                    "quantity": 2
+                },
+                {
+                    "constituent": 9,
+                    "quantity": 2
+                },
+                {
+                    "constituent": 23,
+                    "quantity": 3
+                },
+                {
+                    "constituent": 16,
+                    "quantity": 2 
+                },
+                {
+                    "constituent": 8,
+                    "quantity": 1
+                }
+            ]
+        },
+        {
+            "item": "LGBT Cheese Burger",
+            "price": 700,
+            "constitution": [
+                {
+                    "constituent": 5,
+                    "quantity": 1
+                },
+                {
+                    "constituent": 11,
+                    "quantity": 2
+                },
+                {
+                    "constituent": 23,
+                    "quantity": 2
+                },
+                {
+                    "constituent": 7,
+                    "quantity": 4
+                },
+                {
+                    "constituent": 16,
+                    "quantity": 1
+                },
+                {
+                    "constituent": 8,
+                    "quantity": 1
+                },
+                {
+                    "constituent": 6,
+                    "quantity": 1
+                }
+            ]
+        },
+        {
+            "item": "Chicken Burger, Cheese",
+            "price": 610,
+            "colors": ["yellow", "black"],
+            "constitution": [
+                {
+                    "constituent": 5,
+                    "quantity": 1
+                },
+                {
+                    "constituent": 11,
+                    "quantity": 1
+                },
+                {
+                    "constituent": 16,
+                    "quantity": 1
+                },
+                {
+                    "constituent": 17,
+                    "quantity": 1
+                },
+                {
+                    "constituent": 8,
+                    "quantity": 1
+                }
+            ]
+        },
+        {
+            "item": "Supreme LGBT",
+            "price": 680,
+            "constitution": [
+                {
+                    "constituent": 5,
+                    "quantity": 1
+                },
+                {
+                    "constituent": 6,
+                    "quantity": 2
+                },
+                {
+                    "constituent": 7,
+                    "quantity": 3
+                },
+                {
+                    "constituent": 23,
+                    "quantity": 1
+                },
+                {
+                    "constituent": 9,
+                    "quantity": 3
+                },
+                {
+                    "constituent": 16,
+                    "quantity": 2
+                },
+                {
+                    "constituent": 11,
+                    "quantity": 2
+                }, 
+                {
+                    "constituent": 8,
+                    "quantity": 2
+                }
+            ]
+        },
+        {
+            "item": "Grand Cheese Burger",
+            "price": 810,
+            "constitution": [
+                {
+                    "constituent": 5,
+                    "quantity": 1
+                },
+                {
+                    "constituent": 11,
+                    "quantity": 2
+                },
+                {
+                    "constituent": 8,
+                    "quantity": 3
+                },
+                {
+                    "constituent": 6,
+                    "quantity": 2
+                },
+                {
+                    "constituent": 10,
+                    "quantity": 3
+                },
+                {
+                    "constituent": 7,
+                    "quantity": 3
+                },
+                {
+                    "constituent": 16,
+                    "quantity": 1
+                }
+            ]
+        },
+
+        {
+            "item": "Tea<br>Frappés",
+            "descriptor-key": true
+        },
+        {
+            "item": "Black Tea",
+            "price": 390,
+            "constitution": [
+                {
+                    "constituent": 24,
+                    "quantity": 1
+                }
+            ]
+        },
+        {
+            "item": "Chai Latte",
+            "price": 440
+        },
+        {
+            "item": "Dilmah Tea",
+            "price": 410,
+            "constitution": [
+                {
+                    "constituent": 24,
+                    "quantity": 1
+                }
+            ]
+        },
+
+        {
+            "item": "Chai Latte*",
+            "price": 440,
+            "promo": {
+                "offset_targets": [
+                    {
+                        "name": "Milk",
+                        "whitelist": [
+                            80,
+                            81,
+                            82,
+                            83,
+                            84,
+                            109
+                        ]
+                    }
+                ]
+            }
+        },
+
+        {
+            "item": "Banana Frappé",
+            "price": 600,
+            "constitution": [
+                {
+                    "constituent": 12,
+                    "quantity": 1
+                },
+                {
+                    "constituent": 13,
+                    "quantity": 1
+                },
+                {
+                    "constituent": 14,
+                    "quantity": 1
+                },
+                {
+                    "constituent": 15,
+                    "quantity": 1
+                }
+            ]
+        },
+        {
+            "item": "Choc Frappé",
+            "price": 600,
+            "constitution": [
+                {
+                    "constituent": 12,
+                    "quantity": 1
+                },
+                {
+                    "constituent": 13,
+                    "quantity": 1
+                },
+                {
+                    "constituent": 14,
+                    "quantity": 1
+                },
+                {
+                    "constituent": 15,
+                    "quantity": 1
+                }
+            ]
+        },
+        {
+            "item": "Strawberry Frappé",
+            "price": 600,
+            "constitution": [
+                {
+                    "constituent": 12,
+                    "quantity": 1
+                },
+                {
+                    "constituent": 13,
+                    "quantity": 1
+                },
+                {
+                    "constituent": 14,
+                    "quantity": 1
+                },
+                {
+                    "constituent": 15,
+                    "quantity": 1
+                }
+            ]
+
+        },
+        {
+            "item": "Vanilla Frappé",
+            "price": 670,
+            "constitution": [
+                {
+                    "constituent": 12,
+                    "quantity": 1
+                },
+                {
+                    "constituent": 13,
+                    "quantity": 1
+                },
+                {
+                    "constituent": 14,
+                    "quantity": 1
+                },
+                {
+                    "constituent": 15,
+                    "quantity": 1
+                }
+            ]
+        },
+
+        {
+            "item": "Size Upgrades",
+            "descriptor-key": true
+        },
+        {
+            "item": "Medium Cup Upgrade",
+            "price": 50
+        },
+        {
+            "item": "Large Cup Upgrade",
+            "price": 100
+        },
+        {
+            "item": "E/B Base: Ciabatta",
+            "descriptor-key": true,
+            "constitution": [
+                {
+                    "constituent": 29,
+                    "quantity": 1
+                }
+            ]
+        },
+        {
+            "item": "E/B Base: Muffin",
+            "descriptor-key": true,
+            "constitution": [
+                {
+                    "constituent": 26,
+                    "quantity": 1
+                }
+            ]
+        },
+        {
+            "item": "Small Go-Cup",
+            "price": 20
+        },
+        {
+            "item": "Medium Go-Cup",
+            "price": 80
+        },
+        {
+            "item": "Large Go-Cup",
+            "price": 130
+        },
+
+        {
+            "item": "Add-ons",
+            "descriptor-key": true
+        },
+        {
+            "item": "Modify Above"
+        },
+
+        {
+            "item": "Sugars",
+            "descriptor-key": true
+        },
+        {
+            "item": "Add Sugar"
+        },
+        {
+            "item": "No Sugar"
+        },
+        {},
+        {
+            "item": "Modify Prior,<br>Quantity"
+        },
+        {
+            "item": "NEGATE<br>PRIOR<br>MODIFICATION",
+            "price": "<span class='catbtn-overlay'>IGNORE MODIFICATION FOR PREVIOUS SLOT</span>"
+        },
+        {
+            "item": "Serve Xtra Hot"
+        },
+
+        {
+            "item": "Milks",
+            "descriptor-key": true
+        },
+        {
+            "item": "Dairy Milk"
+        },
+        {
+            "item": "Almond Milk",
+            "constitution": [
+                {
+                    "constituent": 31,
+                    "quantity": 1
+                }
+            ]
+        },
+        {
+            "item": "Coconut Milk",
+            "constitution": [
+                {
+                    "constituent": 31,
+                    "quantity": 1
+                }
+            ]
+        },
+        {
+            "item": "Soy Milk",
+            "constitution": [
+                {
+                    "constituent": 31,
+                    "quantity": 1
+                }
+            ]
+        },
+        {
+            "item": "Trim Milk"
+        },
+        {
+            "item": "Serve Warm"
+        },
+
+        {
+            "item": "Loyalty Points",
+            "descriptor-key": true
+        },
+        {
+            "item": "Loyalty Points -50",
+            "price": -50
+        },
+        {
+            "item": "Loyalty Points -100",
+            "price": -100
+        },
+        {
+            "item": "Loyalty Points -250",
+            "price": -250
+        },
+        {
+            "item": "Loyalty Points -500",
+            "price": -500
+        },
+        {
+            "item": "Half-price Item"
+        },
+        {
+            "item": "Free Item"
+        },
+
+        {
+            "item": "Combo Deals",
+            "descriptor-key": true
+        },
+        {
+            "item": "PROMO:<br>Two Hot Drinks",
+            "price": 800,
+            "promo": {
+                "offset_targets": [
+                    {
+                        "name": "Coffee or Tea",
+                        "whitelist": [
+                            41,
+                            42,
+                            43,
+                            44,
+                            45,
+                            46,
+                            47,
+                            54,
+                            55,
+                            56
+                        ]
+                    },
+                    {
+                        "name": "Milk",
+                        "whitelist": [
+                            80,
+                            81,
+                            82,
+                            83,
+                            84,
+                            109
+                        ]
+                    },
+                    {
+                        "name": "Coffee or Tea",
+                        "whitelist": [
+                            41,
+                            42,
+                            43,
+                            44,
+                            45,
+                            46,
+                            47,
+                            54,
+                            55,
+                            56
+                        ]
+                    },
+                    {
+                        "name": "Milk",
+                        "whitelist": [
+                            80,
+                            81,
+                            82,
+                            83,
+                            84,
+                            109
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "item": "PROMO:<br>Two Floppies or Muffins",
+            "price": 850,
+            "promo": {
+                "offset_targets": [
+                    {
+                        "name": "Floppy or Muffin",
+                        "whitelist": [
+                            19,
+                            20,
+                            21,
+                            22,
+
+                            25,
+                            26,
+                            27,
+                            28
+                        ]
+                    },
+                    {
+                        "name": "Floppy or Muffin",
+                        "whitelist": [
+                            19,
+                            20,
+                            21,
+                            22,
+                            
+                            25,
+                            26,
+                            27,
+                            28
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "item": "PROMO:<br>Two Burgers",
+            "price": 900,
+            "promo": {
+                "offset_targets": [
+                    {
+                        "name": "Lunch Burger",
+                        "whitelist": [
+                            18,
+                            32,
+                            33,
+                            48,
+                            49,
+                            50,
+                            51,
+                            52
+                        ]
+                    },
+                    {
+                        "name": "Lunch Burger",
+                        "whitelist": [
+                            18,
+                            32,
+                            33,
+                            48,
+                            49,
+                            50,
+                            51,
+                            52
+                        ]
+                    }
+                ]
+            }
+        },
+
+        {
+            "item": "Classics Series",
+            "descriptor-key": true
+        },
+        {
+            "item": "Mince Pie",
+            "price": 500
+        },
+        {
+            "item": "Mince Pie, Cheese",
+            "price": 500
+        },
+        {
+            "item": "Steak Pie",
+            "price": 500
+        },
+        {
+            "item": "Steak Pie, Cheese",
+            "price": 500
+        },
+        {
+            "item": "Whitebait Fritters",
+            "price": 700
+        },
+        {
+            "item": "Fish & Chips",
+            "price": 1000,
+            "constitution": [
+                {
+                    "constituent": 1,
+                    "quantity": 2
+                },
+                {
+                    "constituent": 2,
+                    "quantity": 2
+                }
+            ] 
+        },
+        {
+            "item": "Bacon, Eggs on Toast",
+            "price": 900
+        },
+        {
+            "item": "Coffees",
+            "descriptor-key": true
+        },
+        {
+            "item": "Lunch 1",
+            "descriptor-key": true
+        },
+        {
+            "item": "Lunch 2",
+            "descriptor-key": true
+        },
+        {
+            "item": "Desserts",
+            "descriptor-key": true
+        },
+        {
+            "item": "No Milk"
+        },
+        {
+            "item": "Cappuccino*",
+            "price": 450,
+            "colors": ["gold", "brown"],
+            "constitution": [
+                {
+                    "constituent": 15,
+                    "quantity": 1
+                }, 
+                {
+                    "constituent": 21,
+                    "quantity": 1
+                },
+                {
+                    "constituent": 22,
+                    "quantity": 0
+                },
+                {
+                    "constituent": 33,
+                    "quantity": 0
+                }
+            ],
+            "promo": {
+                "offset_targets": [
+                    {
+                        "name": "Milk",
+                        "whitelist": [
+                            80,
+                            81,
+                            82,
+                            83,
+                            84,
+                            109
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "item": "Flat White*",
+            "price": 480,
+            "colors": ["gold", "white"],
+            "constitution" : [
+                {
+                    "constituent": 15,
+                    "quantity": 1
+                },
+                {
+                    "constituent": 21,
+                    "quantity": 0
+                },
+                {
+                    "constituent": 22,
+                    "quantity": 0
+                },
+                {
+                    "constituent": 33,
+                    "quantity": 0
+                }
+            ],
+            "promo": {
+                "offset_targets": [
+                    {
+                        "name": "Milk",
+                        "whitelist": [
+                            80,
+                            81,
+                            82,
+                            83,
+                            84
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "item": "Hot Chocolate*",
+            "price": 350,
+            "colors": ["brown", "white"],
+            "constitution" : [
+                {
+                    "constituent": 20,
+                    "quantity": 1
+                },
+                {
+                    "constituent": 21,
+                    "quantity": 1
+                },
+                {
+                    "constituent": 22,
+                    "quantity": 0
+                },
+                {
+                    "constituent": 33,
+                    "quantity": 0
+                }
+
+            ],
+            "promo": {
+                "offset_targets": [
+                    {
+                        "name": "Milk",
+                        "whitelist": [
+                            80,
+                            81,
+                            82,
+                            83,
+                            84
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "item": "Caffè Latte*",
+            "price": 450,
+            "constitution": [
+                {
+                    "constituent": 15,
+                    "quantity": 1
+                },
+                {
+                    "constituent": 21,
+                    "quantity": 0
+                },
+                {
+                    "constituent": 22,
+                    "quantity": 0
+                },
+                {
+                    "constituent": 33,
+                    "quantity": 0
+                }
+            ],
+            "promo": {
+                "offset_targets": [
+                    {
+                        "name": "Milk",
+                        "whitelist": [
+                            80,
+                            81,
+                            82,
+                            83,
+                            84
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "item": "Mochaccino*",
+            "price": 450,
+            "constitution" : [
+                {
+                    "constituent": 15,
+                    "quantity": 1
+                },
+                {
+                    "constituent": 20,
+                    "quantity": 1
+                },
+                {
+                    "constituent": 21,
+                    "quantity": 1
+                },
+                {
+                    "constituent": 22,
+                    "quantity": 0
+                },
+                {
+                    "constituent": 33,
+                    "quantity": 0
+                }
+
+            ],
+            "promo": {
+                "offset_targets": [
+                    {
+                        "name": "Milk",
+                        "whitelist": [
+                            80,
+                            81,
+                            82,
+                            83,
+                            84
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "item": "Long Black*",
+            "price": 420,
+            "colors": ["black", "lightgray"],
+            "constitution": [
+                {
+                    "constituent": 24,
+                    "quantity": 1
+                },
+                {
+                    "constituent": 15,
+                    "quantity": 1
+                }
+            ],
+            "promo": {
+                "offset_targets": [
+                    {
+                        "name": "Temperature",
+                        "whitelist": [
+                            78,
+                            85
+                        ]
+
+                    }
+                ]
+            }
+        }
+    ],
+
+    "menus": [{
+        "name": "Cold Drinks",
+        "id": "COLD",
+        "submenus": [
+            [
+                {
+                    "id": 0
+                },
+                {
+                    "id": 1
+                },
+                {
+                    "id": 2
+                },
+                {
+                    "id": 3
+                },
+                {
+                    "id": 4
+                },
+                {
+                    "id": 5
+                }
+            ],
+            [
+                {
+                    "id": 6
+                },
+                {
+                    "id": 7
+                },
+                {
+                    "id": 8
+                },
+                {
+                    "id": 9
+                },
+                {
+                    "id": 10
+                },
+                {
+                    "id": 58
+                },
+                {
+                    "id": 59
+                },
+                {
+                    "id": 60
+                },
+                {
+                    "id": 61
+                }
+            ],
+            [
+                {
+                    "id": 62
+                },
+                {
+                    "id": 63
+                },
+                {
+                    "id": 64
+                },
+                {
+                    "id": 57
+                },
+                {
+                    "id": 57
+                },
+                {
+                    "id": 67
+                },
+                {
+                    "id": 68
+                },
+                {
+                    "id": 69
+                }
+            ]
+        ]
+    },
+    {
+        "name": "Lunch Menu",
+        "id": "LUNCH",
+        "submenus": [
+            [
+                {
+                    "id": 106
+                },
+                {
+                    "id": 18
+                },
+                {
+                    "id": 30
+                },
+                {
+                    "id": 31
+                },
+                {
+                    "id": 32
+                },
+                {
+                    "id": 33
+                },
+                {
+                    "id": 34
+                }
+            ],
+            [
+                {
+                    "id": 107
+                },
+                {
+                    "id": 52
+                },
+                {
+                    "id": 48
+                },
+                {
+                    "id": 49
+                },
+                {
+                    "id": 50
+                },
+                {
+                    "id": 51
+                },
+                {
+                    "id": 35
+                }
+            ],
+            [
+                {
+                    "id": 108
+                },
+                {
+                    "id": 36
+                },
+                {
+                    "id": 37
+                },
+                {
+                    "id": 38
+                },
+                {
+                    "id": 39
+                },
+                {
+                    "id": 40
+                },
+                {
+                    "id": 18
+                }
+            ]
+        ]
+    },
+    {
+        "name": "Breakfast Menu",
+        "id": "BREAKFAST",
+        "submenus": [
+            [
+                {
+                    "id": 11
+                },
+                {
+                    "id": 12
+                },
+                {
+                    "id": 13
+                },
+                {
+                    "id": 14
+                },
+                {
+                    "id": 15
+                },
+                {
+                    "id": 16
+                }
+            ],
+            [
+                {
+                    "id": 17
+                },
+                {
+                    "id": 18
+                },
+                {
+                    "id": 19
+                },
+                {
+                    "id": 20
+                },
+                {
+                    "id": 21
+                },
+                {
+                    "id": 22
+                }
+            ],
+            [
+                {
+                    "id": 23
+                },
+                {
+                    "id": 24
+                },
+                {
+                    "id": 25
+                },
+                {
+                    "id": 26
+                },
+                {
+                    "id": 27
+                },
+                {
+                    "id": 28
+                },
+                {
+                    "id": 29
+                }
+            ]
+        ]
+    },
+    {
+        "id": "CAFE",
+        "name": "Café Drinks",
+        "submenus": [
+            [
+                {
+                    "id": 105
+                },
+                {
+                    "id": 110
+                },
+                {
+                    "id": 111
+                },
+                {
+                    "id": 112
+                },
+                {
+                    "id": 113
+                },
+                {
+                    "id": 114
+                },
+                {
+                    "id": 115
+                },
+                {
+                    "id": 47
+                }
+            ],
+            [
+                {
+                    "id": 53
+                },
+                {
+                    "id": 54
+                },
+                {
+                    "id": 57
+                },
+                {
+                    "id": 56
+                },
+                {
+                    "id": 14
+                },
+                {
+                    "id": 58
+                },
+                {
+                    "id": 59
+                },
+                {
+                    "id": 60
+                },
+                {
+                    "id": 61
+                }
+            ],
+            [
+                {
+                    "id": 62
+                },
+                {
+                    "id": 63
+                },
+                {
+                    "id": 64
+                },
+                {
+                    "id": 57
+                },
+                {
+                    "id": 57
+                },
+                {
+                    "id": 67
+                },
+                {
+                    "id": 68
+                },
+                {
+                    "id": 69
+                }
+            ]
+        ]
+    },
+    {
+        "id": "MODS",
+        "name": "Cafe Modifiers",
+        "submenus": [
+            [
+                {
+                    "id": 70
+                },
+                {
+                    "id": 71
+                }
+            ],
+            [
+                {
+                    "id": 72
+                },
+                {
+                    "id": 73
+                },
+                {
+                    "id": 74
+                },
+                {
+                    "id": 75
+                },
+                {
+                    "id": 76
+                },
+                {
+                    "id": 77
+                },
+                {
+                    "id": 78
+                }
+            ],
+            [
+                {
+                    "id": 79
+                },
+                {
+                    "id": 80
+                },
+                {
+                    "id": 81
+                },
+                {
+                    "id": 82
+                },
+                {
+                    "id": 83
+                },
+                {
+                    "id": 84
+                },
+                {
+                    "id": 85
+                }
+            ]
+        ]
+    },
+    {
+        "name": "Promotions",
+        "id": "MISC",
+        "submenus": [
+            [
+                {
+                    "id": 86
+                },
+                {
+                    "id": 87
+                },
+                {
+                    "id": 88
+                },
+                {
+                    "id": 89
+                },
+                {
+                    "id": 90
+                },
+                {
+                    "id": 91
+                },
+                {
+                    "id": 92
+                }
+            ],
+            [
+                {
+                    "id": 93
+                },
+                {
+                    "id": 94
+                },
+                {
+                    "id": 95
+                },
+                {
+                    "id": 96
+                }
+            ],
+            [
+                {
+                    "id": 97
+                },
+                {
+                    "id": 98
+                },
+                {
+                    "id": 99
+                },
+                {
+                    "id": 100
+                },
+                {
+                    "id": 101
+                },
+                {
+                    "id": 102
+                },
+                {
+                    "id": 103
+                },
+                {
+                    "id": 104
+                }
+            ]
+        ]
+    }]
+}
